@@ -10,54 +10,52 @@ body{
     -ms-flex-item-align: center;
     align-self: center;
     margin: 0px auto;
-    padding: 0 auto;
+    padding: auto;
 }
 
 .header{
-    background-color: aqua;
+    background-color: white;
     height: auto;
     
 }
 
 .pagina-menu{
     height: 60px;
-    background-color: #ffffff;
+    background-color: gold;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-
+    border-radius: 20%;
     font-family: 'Permanent Marker', cursive;
-    color: rgb(100, 15, 18); 
+    color: white; 
     font-size: medium;
-   /* cabios de nallis color y tamaño letra, fuente*/
-
-
 }
-.pagina-logo{
+.pagina-logo
+{
     width: 100%;
     height: inherit;
-    background-color: azure;
+    background-color:black;
     text-align: center;
+    border-radius: 20%;
+    
+
 }
 
 .site-title{
-    margin: 0;
-    padding: 0.36em 0;
+    margin: -2%;
+    padding: 0.40em 0;
 }
 
 .container-imagen{
     background-image: url('./seccion1.jpg');
-    height: 240px;                
-    background-size: cover;
+    height: 250px;                
+    background-size: contain;
     color: white; 
     font-size: xx-large;
     text-align: center;
-    margin-bottom:inherit;
-    
-   /* cabios de nallis color y tamaño letra*/
-
-    /* margin-bottom: 20px; */
+    border-radius: 2%;
+         
 }
 
 .nav-list{
