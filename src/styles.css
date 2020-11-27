@@ -1,0 +1,155 @@
+body{
+    margin-top: 0px;
+    font-family: 'Special Elite', cursive;
+}
+
+.pagina{
+    width: 1200px;
+    background-color: thistle;
+    height: 2000px;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin: 0px auto;
+    padding: 0 auto;
+}
+
+.header{
+    background-color: aqua;
+    height: auto;
+    
+}
+
+.pagina-menu{
+    height: 60px;
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(100, 15, 18); 
+    font-size: medium;
+   /* cabios de nallis color y tamaño letra, fuente*/
+
+
+}
+.pagina-logo{
+    width: 100%;
+    height: inherit;
+    background-color: azure;
+    text-align: center;
+}
+
+.site-title{
+    margin: 0;
+    padding: 0.36em 0;
+}
+
+.container-imagen{
+    background-image: url('./seccion1.jpg');
+    height: 240px;                
+    background-size: cover;
+    color: white; 
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom:inherit;
+    
+   /* cabios de nallis color y tamaño letra*/
+
+    /* margin-bottom: 20px; */
+}
+
+.nav-list{
+    padding: 0.25em 0;
+    list-style-type: none;
+    text-align: end;
+    width: 100%
+    
+}
+
+.nav-element{
+    padding: 1em 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: aqua;
+
+}
+
+.nav-element:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.image-text{
+    margin: 0;
+    padding: 9% 0;
+    text-align: center;
+    
+}
+
+.section-1{
+    height: 500px;
+    background-color: aquamarine;
+
+}
+
+.section-2{
+    height: 500px;
+    background-color: blue;
+}
+
+.section-3{
+    height: 500px;
+    background-color: deeppink;
+}
+
+
+.section-text{
+    margin: 0;
+    color: #3e3e3e;
+    background: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.news{
+    width: 100%;
+    background-color: cadetblue;
+    height: 240px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+
+
+
+
+
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: -moz-element();
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.main-menu__item{
+    line-height: 3;
+    font-family: fantasy;
+   
+}
+
+.main-menu__link{
+    text-decoration: none;
+    font-size: 1em;
+    color: #3e3e3e;
+}
+
+.main-menu__link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
