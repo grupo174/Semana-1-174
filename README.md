@@ -34,3 +34,4 @@ El proyecto, deberá manejarse versionado en un repositorio remoto en github, en
 3 - Cada integrante desarrolló su respectiva sección.
 4 - Se integró en un sólo archivo
 5 - Siguiendo las instrucciones de la guía se conectó el repositorio local con el repositorio remoto
+6 - Se procede a subir el archivo .zip
