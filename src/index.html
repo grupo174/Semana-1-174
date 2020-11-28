@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Special+Elite&display=swap" rel="stylesheet"> 
+    <script src="w3.js"></script>
 </head>
 <body>
     <div class="pagina">
@@ -46,20 +47,24 @@
         </div>
         <div  id ="news" class="section-2">
             <p class="section-text">Noticias </p>
+            <div w3-include-html="seccion2.html"></div>
 
         </div>
 
         <div  id="team" class="section-3">
             <p class="section-text">Equipo </p>
-            
+            <div w3-include-html="seccion3.html"></div>
 
         </div>
 
         <div class="section-4">
-            <p class="section-text">pie del sitio </p>
-            
-            </div>
+            <p class="section-text">Pie del Sitio </p>
+            <div w3-include-html="seccion4.html"></div>          
 
         </div>
+
+        <script lang="javascript">
+            includeHTML();
+        </script>
 </body>
 </html>
