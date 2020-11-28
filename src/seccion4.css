@@ -26,7 +26,7 @@
 }
 .site-footer a
 {
-  color:#737373;
+  color:#8f8f8f;
 }
 .site-footer a:hover
 {
@@ -44,7 +44,7 @@
 }
 .footer-links a
 {
-  color:#737373
+  color:#b6b6b6
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
@@ -55,21 +55,8 @@
 {
   display:inline-block
 }
-.site-footer .social-icons
-{
-  text-align:right
-}
-.site-footer .social-icons a
-{
-  width:40px;
-  height:40px;
-  line-height:40px;
-  margin-left:6px;
-  margin-right:0;
-  border-radius:100%;
-  background-color:#33353d
-}
-.copyright-text
+
+.texto-final
 {
   margin:0
 }
@@ -79,12 +66,12 @@
   box-sizing: border-box;
 }
 
-.row {
+.fila {
   display: flex;
 }
 
 /* Permite crear dos columnas del mismo tamaño, una al lado de la otra. */
-.column {
+.columna {
   flex: 50%;
   padding: 10px;
 }
