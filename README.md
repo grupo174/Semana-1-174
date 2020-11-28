@@ -18,3 +18,19 @@ El proyecto, deberá manejarse versionado en un repositorio remoto en github, en
   El elemento donde están los servicios debe de tener un `id=”team”`
 
 - Sección Footer o pie del sitio: el estudiante deberá crear el pie del sitio web en donde se incluye información de contacto, deberá estar dividido en dos partes, en una se tendrá la información del sitio web como el motivante del desarrollo y el enlace al repositorio de github, y en la otra los contacto de los miembros del equipo con sus nombres y roles. La sección debe de estar en un tag <footer></footer>
+
+## Grupo
+
+- Nallive Trujillo - Marqueteadora y Desarrollo de la cabecera.
+- Yaned Sánchez - Desarrollo de la sección de equipo.
+- José Orlando Palacios - Desarrollo de la sección de noticias.
+- Juan Esteban Quintero - Desarrollo de la sección servicios.
+- Luis Cobo - Desarrollo del footer. 
+
+## Etapas
+
+1 - Se creó el repositorio  
+2 - Se le asignó cada una de las secciones a los integrantes.
+3 - Cada integrante desarrolló su respectiva sección.
+4 - Se integró en un sólo archivo
+5 - Siguiendo las instrucciones de la guía se conectó el repositorio local con el repositorio remoto
