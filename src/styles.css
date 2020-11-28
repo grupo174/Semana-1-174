@@ -5,8 +5,7 @@ body{
 
 .pagina{
     width: 1200px;
-    background-color: thistle;
-    height: 2000px;
+    height: auto;
     -ms-flex-item-align: center;
     align-self: center;
     margin: 0px auto;
@@ -14,9 +13,7 @@ body{
 }
 
 .header{
-    background-color: white;
     height: auto;
-    
 }
 
 .pagina-menu{
@@ -26,20 +23,17 @@ body{
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    border-radius: 20%;
+    border-radius: 8px;
     font-family: 'Permanent Marker', cursive;
     color: white; 
     font-size: medium;
 }
-.pagina-logo
-{
+.pagina-logo{
     width: 100%;
     height: inherit;
     background-color:black;
     text-align: center;
-    border-radius: 20%;
-    
-
+    border-radius: 8px;
 }
 
 .site-title{
@@ -48,14 +42,16 @@ body{
 }
 
 .container-imagen{
-    background-image: url('./seccion1.jpg');
+    width: 100%;
+    background-image: url('img/seccion1.jpg');
+    background-repeat: no-repeat;
     height: 250px;                
-    background-size: contain;
+    background-size: 100% 100%;
     color: white; 
     font-size: xx-large;
     text-align: center;
-    border-radius: 2%;
-         
+    border-radius: 2%; 
+    margin-top: 0.5%;
 }
 
 .nav-list{
@@ -71,59 +67,47 @@ body{
     display: inline-block;
     text-decoration: none;
     color: aqua;
-
 }
 
-.nav-element:hover{
-    text-decoration: underline;
+.main-menu {
+    list-style-type: none;
+}
+
+li>a{
+    font-family: 'Special Elite', cursive;
     font-weight: bold;
+    font-size: 20px;
+}
+
+li>a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .image-text{
     margin: 0;
     padding: 9% 0;
     text-align: center;
-    
 }
-
-.section-1{
-    height: 500px;
-    background-color: aquamarine;
-
-}
-
-.section-2{
-    height: 500px;
-    background-color: blue;
-}
-
-.section-3{
-    height: 500px;
-    background-color: deeppink;
-}
-
 
 .section-text{
-    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
     color: #3e3e3e;
     background: white;
     font-weight: bold;
     text-align: center;
+    background-color: black;
+    font-size: 28px;
+    margin-left: 0.5%;
+    width: 99%;
+    height: auto;
+    border-radius: 8px;
+    font-family: 'Permanent Marker', cursive;
+    color: white; 
 }
-
-.news{
-    width: 100%;
-    background-color: cadetblue;
-    height: 240px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-}
-
-
-
-
-
 
 .main-menu{
     margin-top: 0;
@@ -131,7 +115,6 @@ body{
     padding-left: 0;
     list-style: -moz-element();
     display: flex;
-    
     justify-content: space-around;
 }
 
@@ -150,4 +133,274 @@ body{
 .main-menu__link:hover{
     text-decoration: underline;
     font-weight: bold;
+}
+
+/* Inicio css de la seccion 2 (SERVICIOS)*/
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    background-image: url("img/batBackground.jpg");
+    background-repeat: repeat;   
+}
+
+.section-1__colummn>a{
+    text-decoration: none;
+}
+
+.section-1__colummn>a:visited{
+    text-decoration: none;  
+}
+
+.section-1{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 4px;
+    height: auto;
+    display: inline-block;
+    background-color:gold;
+}
+
+.section-1__colummn{
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: grey;
+    border-radius: 8px;
+    width: 28%;
+    height: 335px;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 2%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:#0d0c0c;
+    color:black;
+    box-shadow: 2px 4px 3px grey;
+}
+
+.section-1__colummn:hover{
+   cursor: pointer;
+   background-color:darkred;
+   opacity: 0.9;
+}
+
+.section-1__colummn>img{
+    width: 70%;
+    height: 50%;
+    background-color: #e6e6fa;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin-left: 15%;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.section-1__colummn>h3{
+    width: 100%;
+    text-align: center;
+    color: honeydew;
+}
+
+.section-1__colummn>p{
+    text-align: justify;
+    font-size: 16px;
+    width: 100%;
+    height: 30%;
+    color: honeydew;
+}
+
+/* Fin css de la seccion 2 (SERVICIOS)*/
+ 
+/* inicio css de la seccion 3 (NOTICIAS)*/
+.section-2{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 4px;
+    height: auto; 
+	display: inline-block;
+    background-color:gold;
+}
+
+.news-data{
+    width: 47%;
+    height: 330px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 0.5%;
+    float: left;
+    box-shadow: 2px 4px 10px lightgray;
+}
+
+.news-data:hover{
+    background-color: #2b2222;
+}
+
+.news-data>.news-image{
+    width: 35%;
+    height: 100%;
+    margin-left: 2.5%;
+    float: left;
+    position: relative;
+}
+
+.news-data>.news-image>img{
+    width: 100%;
+    height:  40%;     
+    margin-top: 35%;  
+    border-radius: 8px;     
+}
+.news-data>.news-text{
+    width: 60%;
+    margin-left: 2.5%;
+    float: left;
+}
+
+.news-data>.news-text>.news-title {
+    font-size: 20px;
+    font-family: 'Permanent Marker';
+}
+.news-data>.news-text>p, .news-data>.news-text>.news-title {
+    color: whitesmoke;
+}
+
+.news-data>.news-text>.news-url>a{
+    font-weight: bold;
+    color:  rgb(190, 108, 108);
+}
+
+.news-data>.news-text>.news-url>a:hover {
+    cursor: pointer;
+    color: gold;
+    text-decoration: underline;
+}
+/* Fin css de la seccion 3 (NOTICIAS)*/
+
+/* inicio css de la seccion 4 (EQUIPO*/
+
+.section-3{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 4px;
+    height: auto; 
+	display: inline-block;
+    background-color:gold;
+    padding-bottom: 1%;
+}
+
+.col-5{
+    width: 18.8%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 1%;
+    height: 592.2px;
+    float: left;
+    text-align: center;
+    background-color: black;
+    color:black;
+    box-shadow: 2px 4px 3px grey;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: grey;
+    border-radius: 8px;
+}
+
+.col-5>img{
+    margin-top: 10%;
+    width: 80%;
+    height: 40%;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+.col-5>h2{
+    width: 96%;
+    height: 10%;
+    margin-left: 2%;
+    text-align: center;
+    color: honeydew;
+}
+
+.col-5>p{
+    width: 90%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    color: honeydew;
+    text-align: left;
+    line-height: 1.3;
+}
+.col-5>p>b{
+    text-decoration: underline;
+}
+/* Fin css de la seccion 4 (EQUIPO)*/
+
+/* Inicio css de la seccion 5 (FOOTER)*/
+.section-5{
+    margin-top: 0.5%;
+    border-radius: 4px;
+    padding: 1%;
+    height: auto; 
+	display: inline-block;
+    position: relative;
+    background-color: gold;
+}
+
+.section-5__column-50{
+    width: 48%;
+    height: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+}
+
+.section-5__column-50>p{
+    text-align: justify;
+}
+.section-5__column-100, .section-5__column-50>h2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.section-5__column-50>p, .section-5__column-50>h2, .section-5__column-50>li {
+    color: black;
+}
+.section-5__column-50>ul>li>a, .texto-final>a {
+    color: darkred;
+}
+.section-5__column-50>ul>li>a:hover, .texto-final>a:hover {
+    color: whitesmoke;
+}
+
+/* Fin css de la seccion 5 (FOOTER)*/
+
+/* CSS BOTÓN INICIO */
+
+#miBoton {
+    display: none;/* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:orange; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 48%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    border-color: black;
+    box-shadow: 2px 4px 3px black;
+    height: 70px;
+    width: 70px;
+}
+ 
+#miBoton>img{
+    height: 100%;   
+}
+  #miBoton:hover {
+    background-color:darkred;/* Add a dark-grey background on hover */
 }
